@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build output -- produced by packaging/build.py, never committed
+build/
+dist/
+*.spec
+*.egg-info/
+*.exe
+
+# IDE / editor
+.idea/
+.vscode/
+
+# Personal data and generated output -- never commit these
+*.bviz
+*.pdf
+*.csv
+*.xlsx
+*.xls
+*.log
+*.png
+# the icon and splash are build inputs, not output
+!packaging/*.png
+
+# unrelated leftovers
+images/

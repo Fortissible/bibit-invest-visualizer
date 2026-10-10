@@ -1,0 +1,9 @@
+# Runtime dependencies. Tkinter ships with CPython on Windows and macOS;
+# on Debian/Ubuntu it is a separate package (apt install python3-tk).
+matplotlib>=3.7
+pdfplumber>=0.11   # reading Bibit's PDF transaction history
+openpyxl>=3.1      # only needed to import .xlsx exports
+
+# Building the standalone app (packaging/build.py) also needs:
+#   pyinstaller>=6.0
+#   pillow            -- only to regenerate packaging/icon.ico and splash.png
